@@ -4,6 +4,9 @@ class Node:
     A Node class to store integer data and a reference to the next node.
     """
 
+    data = None
+    next = None
+
     def __init__(self, data):
         """Initialize a node with data and no next node."""
         self.data = data
@@ -14,6 +17,8 @@ class LinkedList:
     """
     A singly linked list that holds Node objects and performs operations using recursion.
     """
+
+    head = None
 
     def __init__(self):
         """Initialize an empty linked list."""
